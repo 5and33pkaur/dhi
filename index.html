@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="main2.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro%7COpen+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--HEADER-->
+    <header id="header">
+        <div class="container dflex topBar">
+            <div class="header_logo">
+                <a href="index.html">
+                    <img class="logoImg" src="images/logo.png">
+                </a>
+            </div>
+            <nav id="nav">
+                <ul class="headerText">
+                    <li class="mainHead">
+                        <a class="active" class="DropdownLink" href="#">Products</a>
+                        <ul class="dropdown hidden">
+                            <li>
+                                <a class="" href="explore.html">Explore</a>
+                            </li>
+                            <li>
+                                <a class="" href="analyze.html">Analyze</a>
+                            </li>
+                            <li>
+                                <a class="" href="sales.html">Sales</a>
+                            </li>
+                            <li>
+                                <a class="" href="platform.html">Platform</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mainHead">
+                        <a href="company.html">Company</a>
+                    </li>
+                    <li class="mainHead">
+                        <a href="resources.html">Resources</a>
+                    </li>
+                    <li class="mainHead">
+                        <a href="partner.html">Partners</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="contact_btn hidden-xs">
+                <h3 class="tran3s" data-toggle="modal" data-target=".contactPopup">Contact</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN BANNER -->
+    <div class="cBanner_block ">
+        <div class="dflex container homeMain_banner hidden-xs hidden-sm">
+            <div class="cBanner-textBlock">
+                <div class="homebanner_text">
+                    <h3>Beyond Visualization. Meet Dhi – Your Virtual Analyst</h3>
+                    <p>Transcend 2D visualizations. Discover the multi-dimensional nature of insights and let Dhi Analyst connect
+                        the dots for you. Understand the “why” and not just the “what”. Use Dhi products to get the best
+                        ROI from your data and BI investments.</p>
+                </div>
+                <div class="BannerDemo_btn">
+                    <button class="Demo_button">Request Demo</button>
+                </div>
+            </div>
+            <div class="homeBanner-videoBlock">
+                <video src="images/main_video.mp4" preload="auto" autoplay="true" loop="true"></video>
+            </div>
+        </div>
+        <div class="dflex homeMain_banner hidden-lg hidden-md">
+            <div class="cBanner-textBlock">
+                <div class="container mob_homeMainBanner">
+                    <div class="homebanner_text">
+                        <h3>Beyond Visualization. Meet Dhi – Your Virtual Analyst</h3>
+                        <p>Transcend 2D visualizations. Discover the multi-dimensional nature of insights and let Dhi Analyst
+                            connect the dots for you. Understand the “why” and not just the “what”. Use Dhi products to get
+                            the best ROI from your data and BI investments.</p>
+                    </div>
+                    <div class="BannerDemo_btn">
+                        <button class="Demo_button">Request Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="homeBanner-videoBlock">
+                <video src="images/main_video.mp4" preload="auto" autoplay="true" loop="true"></video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2 Transforming BI to Al -->
+    <section class="home_block2Section">
+        <div class="container homeBlock2 text-center">
+            <div class="block2_title">
+                <h3>Transforming BI to AI</h3>
+            </div>
+            <div class="block2_subTitle">
+                <p>Dhi Product Portfolio</p>
+            </div>
+            <div class="dflex block2_cols">
+                <div class="block2_col1">
+                    <div class="block2_col1Img">
+                        <img src="images/explore.png">
+                    </div>
+                    <div class="block2_col1Text">
+                        <h3> Dhi Explore</h3>
+                        <p>Reduce your time spent on insight generation–using a powerful visualization engine with semantic
+                            layer.
+                        </p>
+                    </div>
+                    <div class="block2_col1Btn">
+                        <p>
+                            <a>Learn More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="dflex block2_col1">
+                    <div class="block2_col1Text">
+                        <h3>Dhi Analyst</h3>
+                        <p>Generate written analysis without a template and answer “why” questions, using a leading edge analytical
+                            NLP/NLG engine integrated with the semantic layer.</p>
+                    </div>
+                    <div class="block2_col1Img">
+                        <img src="images/analyst.png">
+                    </div>
+                    <div class="block2_col1Btn">
+                        <p>
+                            <a>Learn More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="block2_col1">
+                    <div class="block2_col1Img">
+                        <img src="images/routing.png">
+                    </div>
+                    <div class="block2_col1Text">
+                        <h3>Dhi Sales</h3>
+                        <p>Improve sales force performance and route management using analytics and an optimization engine.</p>
+                    </div>
+                    <div class="block2_col1Btn">
+                        <p>
+                            <a>Learn More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section3 Why Dhi -->
+    <section class="home_block3">
+        <div class="container block3_whyDhi">
+            <div class="block2_title text-center">
+                <h3>Why Dhi</h3>
+            </div>
+            <div class="dflex block3_row1">
+                <div class="row1_imgBlock">
+                    <img src="images/frame1.png">
+                </div>
+                <div class="row1_textBlock">
+                    <div class="row1_head">
+                        <h3>Instant Text Summarization. Not Everybody has Time to Become an Analyst</h3>
+                    </div>
+                    <div class="row1_text">
+                        <p>
+                            Dhi Analyst enables you to infer insights from ANY report format and summarize the key findings in written text. Using a
+                            powerful semantic layer along with NLP/NLG, users are provided with meaningful insights and summaries
+                            with minimal effort or customization.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section4 Why Dhi -->
+    <section class="home_block4">
+        <div class="container block4_whyDhi">
+            <div class="dflex block4_row1">
+                <div class="row2_textBlock">
+                    <div class="row1_head">
+                        <h3>
+                            Ask Why and let Dhi find the Causal Drivers
+                        </h3>
+                    </div>
+                    <div class="row2_text">
+                        <p>Dhi Analyst provides you with the reasons (“Why”) behind changes in key performance indicators –
+                            traversing through your databases with written output and tables indicating the key drivers.
+                            Dhi is a virtual business analyst.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="row2_imgBlock">
+                    <img src="images/frame1.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section5 Why Dhi -->
+    <section class="home_block5">
+        <div class="container block3_whyDhi">
+            <div class="dflex block3_row1">
+                <div class="row3_imgBlock">
+                    <img src="images/frame1.png">
+                </div>
+                <div class="row3_textBlock">
+                    <div class="row1_head">
+                        <h3>Create Complex Visualizations without Programming</h3>
+
+                    </div>
+                    <div class="row3_text">
+                        <p>Dhi Explore allows you to generate complex insights in a fraction of the time required with other
+                            leading BI tools. No SQL - No Programming. Don’t waste 90% of your time creating pretty charts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section6 Pretty CHARTS -->
+    <section class="home_block6">
+        <div class="container charts_block">
+            <div class="dflex block6_row1">
+                <div class="row6_textBlock text-center">
+                    <div class="row3_head">
+                        <h3>Not Just Pretty Charts</h3>
+                        <p>Get actionable insights in less infra and better cost with DHI</p>
+                    </div>
+                    <div class="getDhi_btn">
+                        <button>Get Dhi Today</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--TESTIMONIAL-->
+    <section class="container dflex testimonial_block">
+        <div class="testimonialSlider">
+            <div class="testimonialHead">
+                <h3>Customer Testimonials</h3>
+            </div>
+            <div class="testimonialsBLock">
+                <div class="testimonial_image">
+                    <img src="images/testimonial.png">
+                </div>
+                <div class="userName">
+                    <h3>Ravi Koka</h3>
+                    <p>Founder StockSnips Inc.</p>
+                </div>
+                <div class="afterTextImage">
+                    <img src="images/afterTest.png">
+                </div>
+                <div class="userQuote">
+                    <p>The integration of text based output with visuals is really a game changer. This is helping our 25K users
+                        better understand Buy/Sell opportunities without trying to become an analyst.</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonialSlider hidden">
+            <div class="testimonialHead">
+                <h3>Customer Testimonials</h3>
+            </div>
+            <div class="testimonialsBLock">
+                <div class="testimonial_image">
+                    <img src="images/testimonial.png">
+                </div>
+                <div class="userName">
+                    <h3>Market Research Director</h3>
+                    <p>CPG Company</p>
+                </div>
+                <div class="afterTextImage">
+                    <img src="images/afterTest.png">
+                </div>
+                <div class="userQuote">
+                    <p>Adhoc reporting for our analysts in the market research group was a critical need. We were able to provide
+                        self-service capability with Dhi which helped increase productivity and insight generation.</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonialSlider hidden">
+            <div class="testimonialHead">
+                <h3>Customer Testimonials</h3>
+            </div>
+            <div class="testimonialsBLock">
+                <div class="testimonial_image">
+                    <img src="images/testimonial.png">
+                </div>
+                <div class="userName">
+                    <h3>Brandon Keane</h3>
+                    <p>Jarus Technologies</p>
+                </div>
+                <div class="afterTextImage">
+                    <img src="images/afterTest.png">
+                </div>
+                <div class="userQuote">
+                    <p>I was able to deploy Dhi in less than 10 days on our Insurance ERP Enterprise Data Warehouse – supporting
+                        over 100+ KPIs. This was a huge win for our customers in terms of showing quick value and return.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--LAST COMMON SECTION-->
+    <section class="exp6_sec6">
+        <div class="dflex container exp6_row6">
+            <div class="exp6_block techKnow_block1">
+                <div class="exp6_text1">
+                    <h4>Technical Information</h4>
+                </div>
+            </div>
+            <div class="exp6_block techKnow_block2">
+                <table class="exp6_text2 hidden-sm hidden-xs">
+                    <tr class="techData">
+                        <td class="techHead">Front End:</td>
+                        <td class="techText">HTML 5.0 compatible browser: Chrome, IE, Edge, and Safari</td>
+                    </tr>
+                    <tr class="techData">
+                        <td class="techHead">Devices:</td>
+                        <td class="techText">Desktop (PC or Mac), Tablets, and Android & iOS smartphones</td>
+                    </tr>
+                    <tr class="techData">
+                        <td class="techHead">Middleware:</td>
+                        <td class="techText">IIS Server, PostgressSQL</td>
+                    </tr>
+                    <tr class="techData">
+                        <td class="techHead">Databases:</td>
+                        <td class="techText">SQL Server, Oracle, PostgressSQL, Redshift, Teradata, SparkSQL, etc.</td>
+                    </tr>
+                </table>
+                <div class="exp6_text2 hidden-lg hidden-md">
+                    <div class="techData">
+                        <p class="techHead">Front End:</p>
+                        <p class="techText">HTML 5.0 compatible browser: Chrome, IE, Edge, and Safari</p>
+                    </div>
+                    <div class="techData">
+                        <p class="techHead">Devices:</p>
+                        <p class="techText">Desktop (PC or Mac), Tablets, and Android & iOS smartphones</p>
+                    </div>
+                    <div class="techData">
+                        <p class="techHead">Middleware:</p>
+                        <p class="techText">IIS Server, PostgressSQL</p>
+                    </div>
+                    <div class="techData">
+                        <p class="techHead">Databases:</p>
+                        <p class="techText">SQL Server, Oracle, PostgressSQL, Redshift, Teradata, SparkSQL, etc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="exp6_block techKnow_block3">
+                <div class="exp6_btn">
+                    <a href="#">KNOW MORE</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Client Section-->
+    <section class="partner_wrapper">
+        <div class="dflex partnrRow">
+            <div class="partnerImg">
+                <!-- <img src="images/client.png" /> -->
+            </div>
+            <div class="clientText">
+                <div class="clientHead  text-center">
+                    <h3>Clients &amp; Partners</h3>
+                    <p>Empowering organizations globally with Dhi</div>
+                <div class="dflex partner_logos text-center">
+                    <div>
+                        <img src="images/Spotify1.png" />
+                        <p>Spotify</p>
+                    </div>
+                    <div>
+                        <img src="images/forbes1.png" />
+                        <p>Forbes</p>
+                    </div>
+                    <div>
+                        <img src="images/basecamp1.png" />
+                        <p>Basecamp</p>
+                    </div>
+                    <div>
+                        <img src="images/bakalop1.png" />
+                        <p>Bakalop</p>
+                    </div>
+                    <div>
+                        <img src="images/google1.png" />
+                        <p>Google</p>
+                    </div>
+                </div>
+                <div class="client_demo">
+                    <p>TAKE A DEMO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <section class="footerSection">
+        <div class="container footer-topBlock">
+            <div class="dflex footer_top">
+                <div class="footer_col1">
+                    <div class="footer_logo">
+                        <img src="images/Dhi-footer-logo.png" />
+                    </div>
+                    <div class="dflex socialMedia">
+                        <div class="sMediaHead">Follow Us</div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/facebook.png" />
+                            </a>
+                        </div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/twitter.png" />
+                            </a>
+                        </div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/instagram.png" />
+                            </a>
+                        </div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/medium.png" />
+                            </a>
+                        </div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/linkedin.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_col2">
+                    <div class="footerData">
+                        <ul>
+                            <li class="footerHead">Product</li>
+                            <li class="footerList">Explore</li>
+                            <li class="footerList">Analyze</li>
+                            <li class="footerList">Sales</li>
+                            <li class="footerList">Platform</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_col3">
+                    <div class="footerData">
+                        <ul>
+                            <li class="footerHead">Company
+                            </li>
+                            <li class="footerList">
+                                <a href="company.html/#history">History</a>
+                            </li>
+                            <li class="footerList">
+                                <a href="company.html/#team">Team</a>
+                            </li>
+                            <li class="footerList">Careers</li>
+                            <li class="footerList">Join Us</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_col4">
+                    <div class="footerData">
+                        <ul>
+                            <li class="footerHead">Resources</li>
+                            <li class="footerList">FAQ</li>
+                            <li class="footerList">White Papers</li>
+                            <li class="footerList">Blogs</li>
+                            <li class="footerList">Videos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_col5">
+                    <div class="footerData">
+                        <ul>
+                            <li class="footerHead">Partners</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer_bottom">
+        <div class="container dflex footer_bottomBlock">
+            <div class="subscribeForm">
+                <h3 class="fBottomHead">Stay Updated</h3>
+                <div class="footerForm">
+                    <form>
+                        <div class="subscribe_input">
+                            <input type="email" name="email" placeholder="Email">
+                            <p>Private, Secure & Spam Free</p>
+                        </div>
+                        <div class="subscribe_btn">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="addBlock">
+                <div class="add1">
+                    <h3 class="fBottomHead">India</h3>
+                    <p class="fBottomText">Gurukul Society, Plot #1023, Second Floor, Meridian School Rd, Madhapur, Hyderabad, Telangana 500081</p>
+                </div>
+            </div>
+            <div class="addBlock">
+                <div class="add1">
+                    <h3 class="fBottomHead">U.S.A</h3>
+                    <p class="fBottomText">1450 Broadway, 29th Floor, New York, NY 10018 212-725-6550
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <!-- CONTACT US POPUP -->
+    <div class="modal fade contactPopup" role="dialog">
+        <div class="modal-dialog popup_block">
+            <div class="modal-content dflex popup_content">
+                <div class="closeBtn">
+                    <div class="popUp_close">
+                        <img src="images/close.png">
+                    </div>
+                </div>
+                <div class="modal-body popup_body">
+                    <div class="modal_header text-center">
+                        <div class="formTitle">
+                            <h3>Contact Us</h3>
+                            <p>Let’s explore some great possibilities together</p>
+                        </div>
+                    </div>
+                    <form id="gform">
+                        <div class="contactForm wrapper">
+                            <div class="contact_form">
+                                <input type="text" placeholder="Name*" required>
+                            </div>
+                            <div class="contact_form">
+                                <input type="text" placeholder="Title">
+                            </div>
+                            <div class="contact_form">
+                                <input type="text" placeholder="Company Name">
+                            </div>
+                            <div class="contact_form">
+                                <input type="text" placeholder="Email ID*" required>
+                            </div>
+                            <div class="contact_form">
+                                <input type="tel" placeholder="Phone Number*" required>
+                            </div>
+                            <div class="contact_form_btn">
+                                <button class="">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT US POPUP -->
+</body>
+
+</html>

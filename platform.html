@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="main2.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro%7COpen+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--HEADER-->
+    <header id="header">
+        <div class="container dflex topBar">
+            <div class="header_logo">
+                <a href="index.html">
+                    <img class="logoImg" src="images/logo.png">
+                </a>
+            </div>
+            <nav id="nav">
+                <ul class="headerText">
+                    <li class="mainHead">
+                        <a class="active" class="DropdownLink" href="#">Products</a>
+                        <ul class="dropdown hidden">
+                            <li>
+                                <a class="" href="explore.html">Explore</a>
+                            </li>
+                            <li>
+                                <a class="" href="analyze.html">Analyze</a>
+                            </li>
+                            <li>
+                                <a class="" href="sales.html">Sales</a>
+                            </li>
+                            <li>
+                                <a class="" href="platform.html">Platform</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mainHead">
+                        <a href="company.html">Company</a>
+                    </li>
+                    <li class="mainHead">
+                        <a href="resources.html">Resources</a>
+                    </li>
+                    <li class="mainHead">
+                        <a href="partner.html">Partners</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="contact_btn hidden-xs">
+                <h3 class="tran3s" data-toggle="modal" data-target=".contactPopup">Contact</h3>
+            </div>
+        </div>
+    </header>
+    <div class="cBanner_block ">
+        <div class="dflex container homeMain_banner hidden-xs hidden-sm">
+            <div class="cBanner-textBlock">
+                <div class="homebanner_text platformbanner_text">
+                    <h3>Semantic Layer Based Reporting Integrated with NLP/NLG</h3>
+                    <p>Semantic layer foundation enables Dhi to understand your data. Dhi leverages NLP to query and NLG
+                        to
+                        retrieve results in natural language. The platform powered by Dhi-SQL engine facilities
+                        definition
+                        of complex KPIs that enable analysis not just aggregations. Lightweight and flexible, the
+                        platform
+                        can be easily deployed on existing infrastructure, offering faster time to deploy and lower TCO.
+                    </p>
+                </div>
+                <div class="BannerDemo_btn explore_btn">
+                    <button class="Demo_button">Request Demo</button>
+                </div>
+            </div>
+            <div class="homeBanner-videoBlock exploreBanner-imgBlock">
+                <img src="images/platform_bannerimg.png">
+            </div>
+        </div>
+        <div class="dflex homeMain_banner hidden-lg hidden-md">
+            <div class="cBanner-textBlock">
+                <div class="container mob_homeMainBanner">
+                    <div class="homebanner_text platformbanner_text">
+                        <h3>Semantic Layer Based Reporting Integrated with NLP/NLG</h3>
+                        <p>Semantic layer foundation enables Dhi to understand your data. Dhi leverages NLP to query and
+                            NLG
+                            to retrieve results in natural language. The platform powered by Dhi-SQL engine facilities
+                            definition
+                            of complex KPIs that enable analysis not just aggregations. Lightweight and flexible, the
+                            platform
+                            can be easily deployed on existing infrastructure, offering faster time to deploy and lower
+                            TCO.
+                        </p>
+                    </div>
+                    <div class="BannerDemo_btn">
+                        <button class="Demo_button">Request Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="homeBanner-videoBlock exploreBanner-imgBlock">
+                <img src="images/platform_bannerimg.png">
+            </div>
+        </div>
+    </div>
+    <div class="platform_section2">
+        <div class="dflex container exp3_sec3block1">
+            <div class="exp3_imgBlock1">
+                <div class="exp3_imgblock">
+                    <img src="images/exp3_img1.png" />
+                </div>
+            </div>
+            <div class="exp3_block1_1 exp3_ib1">
+                <div class="exp3_text">
+                    <img src="images/pi1.png">
+                    <h4>Enterprise Semantic Layer – Managed by Data Governor</h4>
+                    <p class="exp3_text2">Relations between attributes, definition of metrics, physical mapping of KPIs
+                        to Data Marts, user access
+                        rights to row/column data make up the core of semantic layer. When the focus is on analysis,
+                        definitions
+                        of metrics do get complex. Dhi’s semantic layer supports a range of powerful functions that also
+                        enables metrics to be parameterized. The Governor tool makes the job of setting all of this up
+                        fast
+                        and easy.</p>
+                </div>
+            </div>
+        </div>
+        <div class="dflex container exp3_sec3block2">
+            <div class="exp3_imgBlock1">
+                <div class="exp3_imgblock">
+                    <img src="images/exp3_img2.png" />
+                </div>
+            </div>
+            <div class="exp3_block1_1 exp3_ib2">
+                <div class="exp3_text">
+                    <img src="images/pi2.png">
+                    <h4>Powerful Dhi-SQL Engine</h4>
+                    <p class="exp3_text2">Dhi-SQL engine generates SQL that’s optimized and appropriate for the
+                        underlying database. It has a security
+                        aware ad-hoc capability with - aggregate awareness for semi-additive and non-additive metrics,
+                        parameterized
+                        metric evaluation and SQL optimized to minimize number of passes. Going beyond SQL, it maintains
+                        report level cache and performs data extensions and aggregations in memory, post retrieval of
+                        data.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="dflex container exp3_sec3block1">
+            <div class="exp3_imgBlock1">
+                <div class="exp3_imgblock">
+                    <img src="images/exp3_img1.png" />
+                </div>
+            </div>
+            <div class="exp3_block1_1 exp3_ib1">
+                <div class="exp3_text">
+                    <img src="images/pi3.png">
+                    <h4>Integrated AI – NLP/NLG Analytical Layer</h4>
+                    <p class="exp3_text1">Dhi-Analytical layer enables the integration of NLP/NLG with the Semantic
+                        Layer. The KPI knowledge contained
+                        in the Semantic layer enables Dhi-Analyst to “understand” your data domains. Text generation
+                        (NLG)
+                        is enabled for any data structure – without any template based customization - driven by dozens
+                        of
+                        embedded analytical assertions. The generated reports are made available in Word format.</p>
+                </div>
+            </div>
+        </div>
+        <div class="dflex container exp3_sec3block2">
+            <div class="exp3_imgBlock1">
+                <div class="exp3_imgblock">
+                    <img src="images/exp3_img2.png" />
+                </div>
+            </div>
+            <div class="exp3_block1_1 exp3_ib2">
+                <div class="exp3_text">
+                    <img src="images/pi4.png">
+                    <h4>Middleware Layer Using REST Services</h4>
+                    <p class="exp3_text2">All the functionality of platform is exposed as modular REST APIs enabling
+                        easy extendibility. The REST
+                        services include (but are not limited to) Report, Storyboard, Domain, Publish, Export,
+                        Analyst/NLG,
+                        Schedule, Security, Governor, Admin etc.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="dflex container exp3_sec3block1">
+            <div class="exp3_imgBlock1">
+                <div class="exp3_imgblock">
+                    <img src="images/exp3_img1.png" />
+                </div>
+            </div>
+            <div class="exp3_block1_1 exp3_ib1">
+                <div class="exp3_text">
+                    <img src="images/pi5.png">
+                    <div class="exp3_text exp3_text1_1">
+                        <h4>Intuitive Reporting & Visualization UX</h4>
+                        <p class="exp3_text2">With a responsive browser based UI built using Angular JS and HTML5, tool
+                            can be used seamlessly
+                            on mobile, tablet and desktop. The powerful export feature, enables the reports and
+                            dashboards
+                            to be exported in native office formats (not just images) or as an offline application where
+                            the look and feel of the application can be retained even while the snippets are shared with
+                            users with no access to the tool.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dflex container exp3_sec3block2">
+            <div class="exp3_imgBlock1">
+                <div class="exp3_imgblock">
+                    <img src="images/exp3_img2.png" />
+                </div>
+            </div>
+            <div class="exp3_block1_1 exp3_ib2">
+                <div class="exp3_text">
+                    <img src="images/pi6.png">
+                    <h4>Configurable Data Connections - Cloud, On-Premise, or Hybrid</h4>
+                    <p class="exp3_text2">Dhi is made to fit gracefully into your data assets with minimal effort and
+                        cost. It works well with
+                        Data sets of varying sizes (ranging from few MB to several PB) and designed in diverse forms
+                        (Star,
+                        Snowflake, 3NF, ROLAP, independent Datasets etc.) It seamlessly works on ever increasing list of
+                        Databases (Teradata, Redshift, Oracle, Hadoop, SQL Server, Postgres etc.). As Dhi works off your
+                        existing data infrastructure, it results in reduced TCO.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="analyze_section3">
+        <div class="container">
+            <div class="analyze_head">
+                <h3>More Reasons to use Dhi-Platform</h3>
+            </div>
+            <div class="dflex ana3_block1">
+                <div class="ana3_box1">
+                    <div class="ana3_img1">
+                        <img src="images/platform3_img1.png">
+                    </div>
+                    <div class="ana3_text1">
+                        <h4>Made for the Enterprise</h4>
+                        <p>It has all the enterprise features required to effectively promote, enable and control access
+                            to
+                            enterprise intelligence.
+                        </p>
+                    </div>
+                </div>
+                <div class="ana3_box1">
+                    <div class="ana3_img1">
+                        <img src="images/platform3_img2.png">
+                    </div>
+                    <div class="ana3_text1">
+                        <h4>Secure</h4>
+                        <p>Access to each user may be controlled by row or column at a fine grained level. Governor has
+                            complete
+                            control on what each user gets to see.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="dflex ana3_block1">
+                <div class="ana3_box1">
+                    <div class="ana3_img1">
+                        <img src="images/platform3_img3.png">
+                    </div>
+                    <div class="ana3_text1">
+                        <h4>Quicker</h4>
+                        <p>Dhi can be fit seamlessly into your enterprise. It is a significantly faster to deploy when
+                            compared
+                            to traditional BI tools.</p>
+                    </div>
+                </div>
+                <div class="ana3_box1">
+                    <div class="ana3_img1">
+                        <img src="images/platform3_img4.png">
+                    </div>
+                    <div class="ana3_text1">
+                        <h4>Cheaper</h4>
+                        <p> Dhi is a light weight platform that leverages your existing data infrastructure. No new
+                            hardware
+                            or software required.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="dflex ana3_block1">
+                <div class="ana3_box1">
+                    <div class="ana3_img1">
+                        <img src="images/platform3_img5.png">
+                    </div>
+                    <div class="ana3_text1">
+                        <h4>Intelligent</h4>
+                        <p> Dhi can be configured to understand both data and your analytical domain. Smarter due to
+                            integration
+                            NLG engine with the Semantic Layer.</p>
+                    </div>
+                </div>
+                <div class="ana3_box1">
+                    <div class="ana3_img1">
+                        <img src="images/platform3_img6.png">
+                    </div>
+                    <div class="ana3_text1">
+                        <h4>Supports Single Source of Truth</h4>
+                        <p>Core KPIs can be defined and managed by the Governor – providing enterprise level KPI
+                            governance
+                            capability – a critical need for maintaining a “single source of truth” enterprise BI
+                            platform.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="dflex ana3_block1">
+                <div class="ana3_box1">
+                    <div class="ana3_img1">
+                        <img src="images/platform3_img7.png">
+                    </div>
+                    <div class="ana3_text1">
+                        <h4>Agent based</h4>
+                        <p>The agent can be invoked with a wake word. You can interact with Agent over Voice or via
+                            Chat.</p>
+                    </div>
+                </div>
+                <div class="ana3_box1">
+                    <!-- <div class="ana3_img1">
+                                        <img src="images/ana3_img4.png">
+                                    </div>
+                                    <div class="ana3_text1">
+                                        <h4>Semantic Layer Integration</h4>
+                                        <p>Complete integration with visualization semantic layer and associated KPI definitions, hierarchies, and attribute relationships.
+                                            </p>
+                                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--FOOTER-->
+    <section class="footerSection">
+        <div class="container footer-topBlock">
+            <div class="dflex footer_top">
+                <div class="footer_col1">
+                    <div class="footer_logo">
+                        <img src="images/Dhi-footer-logo.png" />
+                    </div>
+                    <div class="dflex socialMedia">
+                        <div class="sMediaHead">Follow Us</div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/facebook.png" />
+                            </a>
+                        </div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/twitter.png" />
+                            </a>
+                        </div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/instagram.png" />
+                            </a>
+                        </div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/medium.png" />
+                            </a>
+                        </div>
+                        <div class="mediaIcons">
+                            <a>
+                                <img src="images/linkedin.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_col2">
+                    <div class="footerData">
+                        <ul>
+                            <li class="footerHead">Product</li>
+                            <li class="footerList">Explore</li>
+                            <li class="footerList">Analyze</li>
+                            <li class="footerList">Sales</li>
+                            <li class="footerList">Platform</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_col3">
+                    <div class="footerData">
+                        <ul>
+                            <li class="footerHead">Company
+                            </li>
+                            <li class="footerList">
+                                <a href="company.html/#history">History</a>
+                            </li>
+                            <li class="footerList">
+                                <a href="company.html/#team">Team</a>
+                            </li>
+                            <li class="footerList">Careers</li>
+                            <li class="footerList">Join Us</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_col4">
+                    <div class="footerData">
+                        <ul>
+                            <li class="footerHead">Resources</li>
+                            <li class="footerList">FAQ</li>
+                            <li class="footerList">White Papers</li>
+                            <li class="footerList">Blogs</li>
+                            <li class="footerList">Videos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_col5">
+                    <div class="footerData">
+                        <ul>
+                            <li class="footerHead">Partners</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer_bottom">
+        <div class="container dflex footer_bottomBlock">
+            <div class="subscribeForm">
+                <h3 class="fBottomHead">Stay Updated</h3>
+                <div class="footerForm">
+                    <form>
+                        <div class="subscribe_input">
+                            <input type="email" name="email" placeholder="Email">
+                            <p>Private, Secure & Spam Free</p>
+                        </div>
+                        <div class="subscribe_btn">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="addBlock">
+                <div class="add1">
+                    <h3 class="fBottomHead">India</h3>
+                    <p class="fBottomText">Gurukul Society, Plot #1023, Second Floor, Meridian School Rd, Madhapur,
+                        Hyderabad, Telangana 500081</p>
+                </div>
+            </div>
+            <div class="addBlock">
+                <div class="add1">
+                    <h3 class="fBottomHead">U.S.A</h3>
+                    <p class="fBottomText">1450 Broadway, 29th Floor, New York, NY 10018 212-725-6550
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <!-- CONTACT US POPUP -->
+    <div class="modal fade contactPopup" role="dialog">
+        <div class="modal-dialog popup_block">
+            <div class="modal-content dflex popup_content">
+                <div class="closeBtn">
+                    <div class="popUp_close">
+                        <img src="images/close.png">
+                    </div>
+                </div>
+                <div class="modal-body popup_body">
+                    <div class="modal_header text-center">
+                        <div class="formTitle">
+                            <h3>Contact Us</h3>
+                            <p>Let’s explore some great possibilities together</p>
+                        </div>
+                    </div>
+                    <form id="gform">
+                        <div class="contactForm wrapper">
+                            <div class="contact_form">
+                                <input type="text" placeholder="Name*" required>
+                            </div>
+                            <div class="contact_form">
+                                <input type="text" placeholder="Title">
+                            </div>
+                            <div class="contact_form">
+                                <input type="text" placeholder="Company Name">
+                            </div>
+                            <div class="contact_form">
+                                <input type="text" placeholder="Email ID*" required>
+                            </div>
+                            <div class="contact_form">
+                                <input type="tel" placeholder="Phone Number*" required>
+                            </div>
+                            <div class="contact_form_btn">
+                                <button class="">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT US POPUP -->
+</body>
+
+</html>
