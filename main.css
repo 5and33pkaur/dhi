@@ -41,7 +41,7 @@ li.mainHead a{
 .logoImg{
     width: 15%;
 }
-#nav ul.headerText li.mainHead ul.dropdown li a{
+#nav ul.headerText li.mainHead ul.dropdown1 li a{
     color: #012E57;
 }
 #nav ul.headerText li.mainHead{
@@ -53,7 +53,6 @@ li.mainHead a{
     color: #007DD1;
     font-weight: 600;
     display: block;
-    padding: 0 24px;
     float: left;
     list-style: none;
 }
@@ -89,6 +88,28 @@ li.mainHead a{
     color: #007DD1;
     cursor: pointer;
 }
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+} 
+.mainHead {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {display: block;}
+  
 
 /*BANNERS*/
 .cBanner_block{
@@ -262,9 +283,7 @@ li.mainHead a{
 }
 .partner_logos{
     flex-direction: row;
-    justify-content: space-around;
-    margin: auto;
-    padding-top: 24px;
+    margin: 20px auto;
 }
 .partner_logos p{
     font-weight: 600;
@@ -415,7 +434,7 @@ li.mainHead a{
     .logoImg{
         width: 20%;
     }
-    .dropdown{
+    .dropdown1{
         background: white;
         list-style: none;
         z-index: 999;
@@ -425,7 +444,7 @@ li.mainHead a{
         top:20px;
         width: 100%;
     }
-    #nav ul.headerText li.mainHead ul.dropdown li{
+    #nav ul.headerText li.mainHead ul.dropdown1 li{
         padding-bottom: 25px;
         width: 100%;
         font-size: 18px;
@@ -525,6 +544,22 @@ li.mainHead a{
     .tabs .tabBlock{
         padding: 10px !important;
     }
+    .partner_logos{
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    .partnerImage{
+        margin: 30px 0;
+    }
+    .accordion_blocks{
+        width: 100%;
+        margin: 0 auto 15px auto;
+    }
+    .panel p{
+        width: 100%;
+        border-top: 1px solid #A8C4FD;
+        padding: 10px 0;
+    }
 }
 
 /* ONLY IPAD */
@@ -539,9 +574,9 @@ li.mainHead a{
         width: 50%;
     }
     #nav{
-        width: 100%;
+        width: 110%;
     }
-    .dropdown{
+    .dropdown1{
         background: white;
         list-style: none;
         z-index: 999;
@@ -551,7 +586,8 @@ li.mainHead a{
         top:50px;
         width: 200px;
     }
-    #nav ul.headerText li.mainHead ul.dropdown li{
+
+    #nav ul.headerText li.mainHead ul.dropdown1 li{
         padding-bottom: 25px;
         width: 200px;
         font-size: 18px;
@@ -645,6 +681,25 @@ li.mainHead a{
     .resourceSec{
         height: 55vh;
     }
+    .partner_logos{
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .partnerImage{
+        margin: 30px 0;
+    }
+    .accordion_blocks{
+        width: 95%;
+        margin: 0 auto 15px auto;
+    }
+    .panel p{
+        width: 100%;
+        border-top: 1px solid #A8C4FD;
+        padding: 10px 0;
+    }
 }
 
 /* MAX IPAD */
@@ -737,9 +792,6 @@ li.mainHead a{
         width: 100%;
         text-align: center;
     }
-    .partner_logos{
-        width: 90%;
-    }
     .partnrRow{
         flex-direction: column;
     }
@@ -798,6 +850,9 @@ li.mainHead a{
         color: #012E57;
         margin-bottom: 16px;
     }
+    #nav ul.headerText li.mainHead{
+        padding: 0 13px;
+    }
     li.footerList a, li.footerList{margin-bottom:16px;}
 }
 
@@ -810,25 +865,37 @@ li.mainHead a{
         width: 20%;
     }
     #nav{
-        width: 65%;
+        width: 80%;
     }
-    .dropdown{
+    .partnerImage{
+        margin: 10px 0;
+    }
+    #nav ul.headerText li.mainHead{
+        padding: 0 24px;
+    }
+    .dropdown1{
         background: white;
         list-style: none;
         z-index: 999;
         padding: 25px 20px 0 20px;
         border-bottom:2px solid #FCD249;
         position: absolute !important;
-        top:50px;
+        top:35px;
         width: 200px;
     }
-    #nav ul.headerText li.mainHead ul.dropdown li{
+    #nav ul.headerText li.mainHead ul.dropdown1 li{
         padding-bottom: 25px;
         width: 200px;
         font-size: 18px;
         letter-spacing: 0.8px;
         text-align: left;
         text-transform: none;
+     }
+     .client_text{
+         padding-bottom: 25px;
+     }
+     .clientHead  {
+         padding-bottom: 20px;
      }
     .homebanner_text{
         width: 85%;
@@ -894,6 +961,12 @@ li.mainHead a{
         width: 50%;
         background: url(images/Clients-and-Partners.png);
         background-size: cover;
+    }
+    .partner_logos{
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto;
+        flex-wrap: wrap;
     }
     .partnerImg img{
         width: 100%;
@@ -1007,9 +1080,6 @@ li.mainHead a{
     .home_block2Section{
         margin-top: -17vh;
     }
-    .partner_logos{
-        width: 90%;
-    }
     .modal_header{
         height: 15vh;
     }
@@ -1026,6 +1096,15 @@ li.mainHead a{
     }
     .resourceSec{
         height: 35vh;
+    }
+    .accordion_blocks{
+        width: 90%;
+        margin: 0 auto 15px auto;
+    }
+    .panel p{
+        width: 95%;
+        border-top: 1px solid #A8C4FD;
+        padding: 10px 0;
     }
 }
 
@@ -1070,6 +1149,15 @@ li.mainHead a{
     .techKnow_block2{
         margin-left:34px;
     }
+    .accordion_blocks{
+        width: 70%;
+        margin: 0 auto 15px auto;
+    }
+    .panel p{
+        width: 90%;
+        border-top: 1px solid #A8C4FD;
+        padding: 10px 0;
+    }
 }
 /* ONLY LAPTOP */
 @media screen and (max-width: 1600px) and (min-width:1200px){
@@ -1093,7 +1181,6 @@ li.mainHead a{
     .home_block2Section{
         margin-top: -35vh;
     }
-
 }
 
 
@@ -1314,22 +1401,23 @@ p.fBottomText{
 .accordion {
     background-color: #F7F7F7;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     line-height: 21px;
     color: #026EAA;
-    padding: 18px;
+    padding: 15px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
     transition: 0.4s;
 }
-   
 .panel {
-    padding: 0 18px;
+    padding: 0 15px;
     display: none;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 28px;
+    border: none !important;
     color: #012138;
     overflow: hidden;
     background-color: #F7F7F7 !important;
@@ -1338,3 +1426,4 @@ p.fBottomText{
     display: block;
     border-bottom: 1px solid #026EAA;
 }
+

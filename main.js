@@ -13,11 +13,13 @@ $(document).ready(function () {
         }
     });
 
-    $(function () {
-        $(".DropdownLink").hover(function () {
-            $('.dropdown').removeClass('hidden');
-        });
-    });
+    // $(function () {
+    //     $(".DropdownLink").hover(function () {
+    //         $('.dropdown1').removeClass('hidden');
+    //     },function(){
+    //         $('.dropdown1').addClass('hidden');
+    //     });
+    // });
 
     /*TABS RESOURCES*/
     $('.tabs .tabBlock span').click(function () {

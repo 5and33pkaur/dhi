@@ -159,9 +159,6 @@ p.advisory_text2{
   margin:auto;
   display:block;
 }
-.resellers_block {
-  padding: 50px 30px 50px 30px;
-}
 .partner_sec3_block{
   background-color: #f8f8f8;
   margin-top:15vh;
@@ -411,7 +408,7 @@ p.exp3_text1,.exp3_text1_1{
 .analyze_section3{
   text-align:center;
   background-color: #f7f7f7;
-  padding:80px 0 30px 0;
+  padding:80px 0 70px 0;
 }
 .analyze_head h3{
   text-align: center;
@@ -561,10 +558,9 @@ p.exp3_text1,.exp3_text1_1{
   }
   .ana3_box1{
     width:100%;
-    margin: auto auto 40px auto;
-  }
-  .ana3_box1{
     padding-top:5vh;
+
+    margin-bottom: 40px;
   }
   .explore_sectionLast{
     background-size: 285% 151%;
@@ -585,9 +581,19 @@ p.exp3_text1,.exp3_text1_1{
   .partnersec2_text {
     line-height: 26px;
   }
-  
-  
+  .partner_sec3{
+    flex-direction: column;
+  }
+  .resellers_block{
+    width: 80%;
+    margin: 50px auto;
+  }
+  .partnerImage{
+    width: 33%;
+    margin: 20px 0;
+  }
 }
+
 /* ONLY IPAD */
 @media screen and (max-width: 991px) and (min-width:489px){
   .team_block {
@@ -605,6 +611,13 @@ p.exp3_text1,.exp3_text1_1{
   }
   .partner_sec3_block {
     margin-top: 40vh;
+  }
+  .partner_sec3{
+    flex-direction: row;
+  }
+  .resellers_block{
+    width: 45%;
+    margin: 50px auto;
   }
   .partner_sec2{
     margin-top: -50vh;
@@ -651,9 +664,8 @@ p.exp3_text1,.exp3_text1_1{
   }
   .ana3_box1{
     width:50%;
-  }
-  .ana3_box1{
     padding-top:5vh;
+
   }
   .analyze_head h3 {
     font-size: 30px;
@@ -666,7 +678,6 @@ p.exp3_text1,.exp3_text1_1{
   .analyze_section3 {
     padding:80px 0px 50px 0px;
   }
-  
 }
 
 /* MAX IPAD */
@@ -743,11 +754,19 @@ p.exp3_text1,.exp3_text1_1{
   }
   .ana3_box1{
     width:50%;
-    margin: auto auto 60px auto;
+    margin-bottom:25px;
+    padding-top: 25px;
   }
   .analyze_head h3{
     font-size: 40px;
     line-height: 47px;
+  }
+  .partner_sec3{
+    flex-direction: row;
+  }
+  .resellers_block{
+    width: 40%;
+    margin: 50px auto;
   }
   .advisory_section{
     flex-direction: row;
@@ -847,7 +866,6 @@ p.exp3_text1,.exp3_text1_1{
 
 /* ONLY LAPTOP */
 @media screen and (max-width: 1600px) and (min-width:1200px){
-
   .pBanner_block{
     background: url(images/Partners-banner.png);
     height: 150vh;
@@ -869,7 +887,7 @@ p.exp3_text1,.exp3_text1_1{
     line-height:46px;
   }
   .ana3_block1{
-    padding-top:10vh;
+    padding-top:5vh;
   }
   .platformbanner_text h3{
     font-size:35px;
